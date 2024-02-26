@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  
+  /* -------------------- main container -------------- */
+  
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* ------------- Header start ------------- */
+  
+  header {
+    background-color: #232536;
+    border-bottom: 1px solid silver;
+  }
+  
+  nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: auto;
+  }
+  
+  nav .list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 712px;
+  }
+  
+  nav .list .list-item a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.2s ease-out;
+  }
+  
+  nav .list .list-item a:hover {
+    color: #fff;
+  }
+  
+  .active-link {
+    color: #fff !important;
+  }
+  
+  /* ------------- Header end ---------------- */
+
+  
+  /* -------------- intro :start ------------ */
+
+  #intro {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  
+  #intro .wrapper {
+    width: 100%;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #intro .wrapper .wrapper_left {
+    padding-top: 100px;
+  }
+  
+  #intro .wrapper .wrapper_left h1 {
+    font-size: 56px;
+    line-height: 70px;
+    margin-bottom: 24px;
+  }
+  
+  #intro .wrapper .wrapper_left p {
+    color: rgba(32, 17, 17, 0.6);
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+  
+  #intro .wrapper .wrapper_left button {
+    width: 219px;
+    height: 64px;
+    background-color: #444cfc;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+  }
+  
+  #intro .wrapper .wrapper_left button:hover {
+    background-color: #232536;
+    color: #ffff;
+    border: 2px solid #fff;
+  }
+  #intro .wrapper .wrapper_left button:active {
+    background-color: #9fa3ff;
+  }
+  
+  #intro .wrapper .wrapper_right img{
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+
+  /* -------------------- intro end ----------------- */
+
+  /* -------------------- details :start -------------- */
+
+  #details {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    background-color: #ECF8F9;
+  }
+
+  #details nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+
+   #details nav .list {
+    margin-top: 100px;
+    margin-left: 250px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 712px;  
+    border-bottom: 1px solid silver; 
+  }
+  
+  #details nav .list .list-item a {
+    color: rgba(28, 7, 7, 0.6);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.2s ease-out;
+    
+  }
+  
+  #details nav .list .list-item a:hover {
+    color: #0000ff61;
+  }
+  
+    #details .active-link {
+    color: blue !important;
+    border-bottom: 2px solid blue;
+  }
+
+  #details .wrapper .wrapper_bottom{
+    margin-top: 100px;
+    margin-left: 270px;
+    line-height: 40px;
+  }
+
+  /* ------------------ details end ----------- */
+
+  /* ------------------- apply start ------------- */
+
+  #apply {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  #apply .wrapper h1{
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  #apply .wrapper .input input{
+    padding: 10px;
+    width: 563px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #ECF8F9;
+    border: none;
+  }
+
+  #apply .wrapper .email input{
+    padding: 10px;
+    width: 563px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #ECF8F9;
+    border: none;
+  }
+
+  #apply .wrapper .ether textarea{
+    padding: 10px;
+    width: 1133px;
+    height: 300px;
+    margin-top: 20px;
+    background-color: #ECF8F9;
+    border: none;
+  }
+
+  #apply .wrapper .checkbox{
+    margin-top: 25px    ;
+    display: flex;
+  }
+
+  #apply .wrapper .checkbox p{
+    margin-left: 15px;
+  }
+
+  #apply .wrapper button {
+    width: 219px;
+    height: 54px;
+    background-color: #444cfc;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    margin-top: 30px;
+  }
+  
+  #apply .wrapper button:hover {
+    background-color: #232536;
+    color: #ffff;
+    border: 2px solid #fff;
+  }
+  #apply .wrapper  button:active {
+    background-color: #9fa3ff;
+  }
+
+  /* ---------------------------------- news start ----------------------------------- */
+
+  #news{
+    width: 100%;
+    height: auto;
+    padding: 70px 0;
+    background-color: #666DFF;
+    position: relative;
+  }
+  
+  #news .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #news .wrapper .left{
+    margin-top: 70px;
+  }
+  
+  #news .wrapper .left h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+  
+  #news .wrapper .left h5{
+    color: #fff;
+  }
+  
+  #news .wrapper .right input{
+    margin-top: 100px;
+    padding: 20px 100px;
+  }
+  
+  #news .wrapper .shape{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  
+  #news .wrapper .ustun{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  /* ------------------- news end ------------------------- */
+
+  /* --------------------- foooter start ---------------------- */
+
+  
+
+#make{
+    width: 100%;
+    height: auto;
+    padding: 96px 0;
+  }
+  
+  #make .wrapper .left{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #make .wrapper .Contact{
+    margin-left: 1100px;
+    margin-bottom: 40px;
+  }
+
+  #make nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #make .logo {
+    width: auto;
+  }
+  
+  #make  nav .list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 712px;
+    margin-top: 90px;
+    margin-left: 150px;
+    line-height: 30px;
+  }
+  
+  #make nav .list .list-item a {
+    color: rgba(26, 20, 20, 0.6);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.2s ease-out;
+  }
+  
+    #make nav .list .list-item a:hover {
+    color: #5a4fba;
+  }
+  
+  /* ------------------------------------------------- footer end ------------------------------------------------------------- */
+  
+  #fin{
+    width: 100%;
+  
+    background-color: #FFE6D2;
+    border-bottom: 1px solid silver;
+  }

@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+/* -------------------- main container -------------- */
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ------------- Header start ------------- */
+
+header {
+    background-color: #232536;
+    border-bottom: 1px solid silver;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: auto;
+}
+
+nav .list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 712px;
+}
+
+nav .list .list-item a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.2s ease-out;
+}
+
+nav .list .list-item a:hover {
+    color: #fff;
+}
+
+.active-link {
+    color: #fff !important;
+}
+
+/* ------------ intro :start ------------------ */
+
+#intro {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#intro .wrapper .wrapper_title h1{
+   margin-top: 50px;
+   font-size: 35px;
+}
+
+#intro .wrapper .wrapper_title p{
+    font-size: 12px;
+}
+
+#intro .wrapper_str{
+    background-color: #a6fbfb;
+    padding: 5px 100px ;
+}
+
+#intro .wrapper_str h2{
+    font-size: 28px;
+    margin-top: 100px;
+}
+
+#intro .wrapper_str {
+    width: 800px;
+    margin-left: 250px;
+    line-height: 26px;
+}
+
+#agency .wrapper_str strong {
+    font-size: 23px;
+
+}
+
+/* -------------------- footer start ------------------- */
+
+#make {
+    width: 100%;
+    height: auto;
+    padding: 96px 0;
+}
+
+#make .wrapper .left {
+    display: flex;
+    justify-content: space-between;
+}
+
+#make .wrapper .left h1{
+    font-size: 30px;
+}
+
+#make .wrapper .Contact {
+    margin-left: 1100px;
+    margin-bottom: 40px;
+}
+
+#make nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#make .logo {
+    width: auto;
+}
+
+#make nav .list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 712px;
+    margin-top: 90px;
+    margin-left: 150px;
+    line-height: 30px;
+}
+
+#make nav .list .list-item a {
+    color: rgba(26, 20, 20, 0.6);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.2s ease-out;
+}
+
+#make nav .list .list-item a:hover {
+    color: #5a4fba;
+}
+
+#make .Contact a {
+    text-decoration: none;
+}
+
+/* ------------------------------------------------- footer end ------------------------------------------------------------- */
+
+#fin {
+    width: 100%;
+
+    background-color: #FFE6D2;
+    border-bottom: 1px solid silver;
+}
+
+
+#fin .media{
+    display: flex;
+    justify-content: space-between;
+}

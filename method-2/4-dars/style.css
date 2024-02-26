@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+/* -------------------- main container -------------- */
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body{
+    background-color: yellow;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background-color: crimson;
+    transition: all 2s ease-in-out;
+    
+    /* margin-top: 100px;
+    margin-left: 300px; */
+}
+
+@media only screen and (max-width: 768px) {
+    .card{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        border-radius: 20px;
+        transition: all 2s ease-in-out;
+    }
+    body{
+        background-color: red;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .card{
+        background-color: blue;
+        border-radius: 50%;
+        transition: all 0.5s ease-in-out;
+    }
+    body{
+        background-color: green;
+    }
+}
+
+    
